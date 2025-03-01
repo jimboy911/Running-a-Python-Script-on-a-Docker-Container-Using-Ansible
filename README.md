@@ -12,8 +12,8 @@ Copy files into your server
 
 Setup Docker Container:
 ```
-docker build -t docker-ssh-test:latest .
-docker run -t docker-ssh-test
+docker build -t ssh_test_container:latest .
+docker run -t ssh_test_container
 ```
 
 To Run:
