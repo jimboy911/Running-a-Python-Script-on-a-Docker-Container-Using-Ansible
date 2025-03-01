@@ -2,14 +2,17 @@
 Running a Python Script on a Docker Container Using Ansible
 
 To Install:
+```
 sudo su
 dnf install ansible
 dnf install docker
+```
 
 Copy files into your server
 
 Setup Docker Container:
-docker build -t docker-ssh-test:latest .
+```docker build -t docker-ssh-test:latest .```
+
 docker run -t docker-ssh-test
 
 To Run:
